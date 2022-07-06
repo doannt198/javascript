@@ -76,17 +76,3 @@ sunshine = [
     },
   ]
 
-  const promise = new Promise(
-      function(resole, reject) {
-            resole(sunshine),
-            reject("Error")
-      }
-  )
-
-  promise
-      .then((result)=> 
-        console.log(result)
-      )
-      .catch((error)=> 
-        console.log(error)
-      )
