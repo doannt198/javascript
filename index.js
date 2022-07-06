@@ -76,20 +76,20 @@ sunshine = [
     },
   ]
 
-function sleep(ms){
-       return new Promise(function(resolve){
-            setTimeout(resolve, ms)
-       }); 
-}
-    sleep(1000)
-    .then(function(){
-        console.log(1)
-        return sleep(1000)
-    })
-    .then(function(){
-        console.log(2)
-        return sleep(1000)
-    })
-    .then(function(){
-        console.log(3)
-    })
+  function sleep(ms) {
+      return new Promise(function(resolve)
+      {
+         setTimeout(resolve(ms), ms)
+      })
+  }
+  sleep(1)
+  .then(function(res){
+    console.log(res)
+    return sleep(2)
+  }).then(function(res){
+    console.log(res)
+    return sleep(3)
+  }).then(function(res){
+      console.log(res)
+      return sleep(4)
+  })
