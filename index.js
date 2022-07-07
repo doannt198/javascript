@@ -76,10 +76,10 @@ sunshine = [
     },
   ]
 
-  function sleep(ms) {
-      return new Promise(function(resolve)
+/*   function sleep(ms) {
+      return new Promise(function(resolve, reject)
       {
-         setTimeout(resolve(ms), ms)
+         setTimeout(reject)
       })
   }
   sleep(1)
@@ -92,4 +92,13 @@ sunshine = [
   }).then(function(res){
       console.log(res)
       return sleep(4)
-  })
+  }).then(function(res){
+      console.log(res)
+  }) */
+
+  /* Object.is  */
+ /*  Object.assign(a, b) a: là đối tượng đích, b: đối tượng nguồn */ 
+  /* string.startsWith */
+ /*  string.endWith */
+ /* string.includes */
+
