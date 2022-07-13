@@ -1,8 +1,5 @@
-import {a, b} from './number.js'
+import * as number  from './number.js'
 
-console.log(a)
-console.log(b)
+import {log2} from './number.js'
 
-import log from './index1.js'
-
-console.log(log("abc", "log"))
+console.log(log2("tesst","log"))
