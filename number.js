@@ -1,5 +1,6 @@
-const a  =50
-const b  =100
-export {a,b}
-
-export {default as log2} from './index1.js'
+export class Person {
+    constructor(name, age) {
+        this.name = name
+        this.age = age
+    }
+}
