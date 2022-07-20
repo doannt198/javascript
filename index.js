@@ -10,8 +10,16 @@ findIndex(),x
  from() ,x
  includes() x, 
  indexOf() x, isArray(),x
-join()x ,keys()x lastindexof(), lengthx, map()x,  pop()x, prototype() , push(), reduce() 
-reduceRight(), reverse(), shift()x, slice()x, some()x , sort()x, splice(), toString()x, unshift(), Valueof() */
+join()x ,keys()x 
+lastindexof(), tìm vị trí cuối cùng thỏa  mãn điều kiện 
+ lengthx,
+  map()x,  
+  pop()x, xóa phần tử ở cuối mảng vè trả về phàn tử dược xóa
+  prototype()x ,
+   push(), thêm vào vị trí cuối mảng và trả vể về vị trí của phần tử đó trong mảng 
+   reduce() 
+reduceRight(),
+ reverse(): đảo vị trí của các phần tử trong mảng  shift()x, slice()x, some()x , sort()x, splice(), toString()x, unshift() thêm vào đầu mảng và trả về đồ dài mới của mảng, Valueof() */
 
 var a = ['1', '2', '4', '6'] 
 var b = ['a', 'c', 'f', 'e', 'f', 'h']
@@ -25,6 +33,6 @@ var data = [
   {name :"c", age: 14},
   {name :"d", age: 15},
 ]
-
-var results = b.toString()
+  
+var results = b.lastIndexOf()
 console.log(results)
