@@ -11,7 +11,7 @@ findIndex(),x
  includes() x, 
  indexOf() x, isArray(),x
 join()x ,keys()x lastindexof(), lengthx, map()x,  pop()x, prototype() , push(), reduce() 
-reduceRight(), reverse(), shift()x, slice()x, some()x , sort()x, splice(), toString(), unshift(), Valueof() */
+reduceRight(), reverse(), shift()x, slice()x, some()x , sort()x, splice(), toString()x, unshift(), Valueof() */
 
 var a = ['1', '2', '4', '6'] 
 var b = ['a', 'c', 'f', 'e', 'f', 'h']
@@ -26,7 +26,5 @@ var data = [
   {name :"d", age: 15},
 ]
 
-var results = data.some((t)=> {
-  
-})
+var results = b.toString()
 console.log(results)
