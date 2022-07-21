@@ -19,7 +19,17 @@ lastindexof(), tìm vị trí cuối cùng thỏa  mãn điều kiện
    push(), thêm vào vị trí cuối mảng và trả vể về vị trí của phần tử đó trong mảng 
    reduce() 
 reduceRight(),
- reverse(): đảo vị trí của các phần tử trong mảng  shift()x, slice()x, some()x , sort()x, splice(), toString()x, unshift() thêm vào đầu mảng và trả về đồ dài mới của mảng, Valueof() */
+ reverse(): đảo vị trí của các phần tử trong mảng  
+ shift()x, 
+ slice()x,
+  some()x , 
+  sort()x, 
+  splice(),
+   toString()x,
+    unshift() thêm vào đầu mảng và trả về đồ dài mới của mảng, 
+    Valueof() */
+
+
 
 var a = ['1', '2', '4', '6'] 
 var b = ['a', 'c', 'f', 'e', 'f', 'h']
@@ -33,6 +43,10 @@ var data = [
   {name :"c", age: 14},
   {name :"d", age: 15},
 ]
-  
-var results = b.lastIndexOf()
-console.log(results)
+
+function check (value) {
+    return value.name == "c"
+}
+
+var kq = b.join("&")
+console.log(kq)

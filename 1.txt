@@ -1,0 +1,32 @@
+ concat(): , Nối mảng 
+  copyWithin(): Copy giá trị trong mảng và ghi đè lên 
+   entries():  
+   every(): Kiểm tra tất cả phần tử trog mảng thoả mãn 1 logic cho trước, trả về true nếu như thoả mãn và trả về false nếu không thoả mãn
+   fill() thay đổi tất cả value của mảng về giống nhau, tham số thử 2 -đặt ghi đè lên từ vị trí nào
+  filter() trả về một mảng mới chưa các phần tử thoả mãn logic cho trước 
+, find(), trả về phần tử đầu tiên thoả mãn điều kiện 
+findIndex(),
+ forEAch() ,
+ from() ,
+ includes() , 
+ indeOf() , 
+ isArray(),
+join() ,
+keys() 
+lastindeof(),
+ length,
+  map(),  
+  pop(), 
+  prototype() ,
+   push(), 
+   reduce() 
+    reduceRight(),
+    reverse():
+ shift(), 
+ slice(),
+  some() , 
+  sort(), 
+  splice(),
+   toString(),
+    unshift()
+    Valueof() */
