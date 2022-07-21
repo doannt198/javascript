@@ -36,22 +36,14 @@ fetch('./user.json')
 .then(async (data)=> {
    listUser =await data.json()
   console.log(listUser)
-  listUser.unshift({ID:6, Name:"Peter", Age: 20, Gmail:"anv@gmail.com", Bithday: "22/12/2022"})
-  listUser.sort((a,b)=> a.Name.localeCompare(b.Name))
-  var index = listUser.findIndex((t)=> t.ID == 2)
-  listUser.splice(index, 1)
-  var listFilter = listUser.filter((t)=> t.Name=="Avatar") 
-  console.log(listFilter) 
-  var indexName = listUser.findIndex((t)=> t.Name =="Avatar")
-  listUser.splice(indexName,1,{ID: 3, Name: 'Game', Age: '2008', Gmail: 'PG-13', Brithday: '18 Jul 2008'})
-  console.log(listUser)
-  function filterList(array) {
-      return array.Age > 2008
+  function getTotal(total, initialValue) {  
+    return total += initialValue.price
   }
-  var filterByAge = listUser.filter(filterList)
-  console.log(filterByAge)
-  
+  var tinhtong = listUser.reduce(getTotal,0)
+  console.log(tinhtong)
 }).catch((error) => console.log(error))
+
+
 
 
 

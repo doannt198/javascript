@@ -4,34 +4,39 @@
       "Name": "Inception",
       "Age": "2010",
       "Gmail": "PG-13",
-      "Brithday": "16 Jul 2010"
+      "Brithday": "16 Jul 2010", 
+      "price" : 200
     },
     {
       "ID": 2,
       "Name": "Interstellar",
       "Age": "2014",
       "Gmail": "PG-13",
-      "Brithday": "07 Nov 2014"
+      "Brithday": "07 Nov 2014",
+      "price" : 150
     },
     {
       "ID": 3,
       "Name": "Avatar",
       "Age": "2008",
       "Gmail": "PG-13",
-      "Brithday": "18 Jul 2008"
+      "Brithday": "18 Jul 2008",
+      "price" : 300
     },
     {
       "ID": 4,
       "Name": "Batman Begins",
       "Age": "2005",
       "Gmail": "PG-13",
-      "Brithday": "15 Jun 2005"
+      "Brithday": "15 Jun 2005",
+      "price" : 450
     },
     {
       "ID": 5,
       "Name": "Avatar",
       "Age": "2009",
       "Gmail": "PG-13",
-      "Brithday": "18 Dec 2009"
+      "Brithday": "18 Dec 2009",
+      "price" : 500
     }
   ]
