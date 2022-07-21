@@ -31,38 +31,27 @@ reduceRight(),
    toString()x, chuyển mảng thành chuỗi
     unshift() thêm vào đầu mảng và trả về đồ dài mới của mảng, 
     Valueof() */
+var listUser 
+fetch('./user.json')
+.then(async (data)=> {
+   listUser =await data.json()
+  console.log(listUser)
+  listUser.unshift({ID:6, Name:"Peter", Age: 20, Gmail:"anv@gmail.com", Bithday: "22/12/2022"})
+  listUser.sort((a,b)=> a.Name.localeCompare(b.Name))
+  var index = listUser.findIndex((t)=> t.ID == 2)
+  listUser.splice(index, 1)
+  var listFilter = listUser.filter((t)=> t.Name=="Avatar") 
+  console.log(listFilter) 
+  var indexName = listUser.findIndex((t)=> t.Name =="Avatar")
+  listUser.splice(indexName,1,{ID: 3, Name: 'Game', Age: '2008', Gmail: 'PG-13', Brithday: '18 Jul 2008'})
+  console.log(listUser)
+  function filterList(array) {
+      return array.Age > 2008
+  }
+  var filterByAge = listUser.filter(filterList)
+  console.log(filterByAge)
+  
+}).catch((error) => console.log(error))
 
-
-
-var a = ['1', '2', '4', '6'] 
-var b = ['a', 'c', 'f', 'e', 'f', 'h']
-var c = {
-  name: " abc",
-  age:20 
-}
-var data = [
-  {name :"a", age: 12},
-  {name :"r", age: 13},
-  {name :"k", age: 14},
-  {name :"d", age: 15},
-  {name :"c", age: 13},
-  {name :"b", age: 16},
-]
-
-var info = [
-  {sdt: "123", city: "HN"},
-  {sdt: "456", city: "HCM"},
-  {sdt: "789", city: "DN"},
-]
-
-function abc(m) {
-    return `<li>${m.name}</li><br>`
-}
-
-var data1= data.map(abc)
-  console.log(data1)
-var x = data1.join("")
-
-document.querySelector(".demo").innerHTML = x
 
 

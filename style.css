@@ -1,6 +1,4 @@
-a{
-    text-decoration: none;
-}
-.box {
-    color: red;
-}
+table, th, td {
+    border: 1px solid;
+  }
+
