@@ -24,7 +24,7 @@ lastindexof(), tìm vị trí cuối cùng thỏa  mãn điều kiện
 reduceRight(),
  reverse(): đảo vị trí của các phần tử trong mảng  
  shift()x, xoá phần tủ đầu tiền của mảng và trả về phần tử bị xoá
- slice()x, lấy ra các phần tử trong mảng và không ảnh hưởng gì đên 
+ slice()x, lấy ra các phần tử trong mảng và không ảnh hưởng gì đên mảng ban đầu
   some()x , lặp qua các phần tử và check phân tử có trong mảng k, return true of có or false if khôg
   sort()x, hàn sắp xếp mảng theo thứ tự tăng dần hoặc giảm dần xx
   splice(), xoá một hoặc nhiều phần tử trong mảng
