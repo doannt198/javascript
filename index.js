@@ -31,19 +31,9 @@ reduceRight(),
    toString()x, chuyển mảng thành chuỗi
     unshift() thêm vào đầu mảng và trả về đồ dài mới của mảng, 
     Valueof() */
-var listUser 
-fetch('./user.json')
-.then(async (data)=> {
-   listUser =await data.json()
-  console.log(listUser)
-  function getTotal(total, initialValue) {  
-    return total += initialValue.price
-  }
-  var tinhtong = listUser.reduce(getTotal,0)
-  console.log(tinhtong)
-}).catch((error) => console.log(error))
+/* split(): Chuyển chuỗi  thành một mảng */
 
-
+  const str = "Trần, Mạnh, Hùng"
 
 
 
