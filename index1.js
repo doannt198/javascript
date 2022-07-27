@@ -18,4 +18,4 @@ toSource()
 sort() sắp xếp các phần tử có trong mảng tăng dần hoặc giảm dần
 splice() xoá hoặc thêm một hay nhiều phần tử có trong mảng     
 toString() chuyển mảng thành chuỗi
-unshift()  thêm một hoặc nhiều phần tủ vào đầu mảng và trả về độ dài mới của mảng */ 
+unshift() thêm một hoặc nhiều phần tủ vào đầu mảng và trả về độ dài mới của mảng */ 
