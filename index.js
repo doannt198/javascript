@@ -33,7 +33,17 @@ reduceRight(),
     Valueof() */
 /* split(): Chuyển chuỗi  thành một mảng */
 
-  const str = "Trần, Mạnh, Hùng"
+/* Viết hàm sortByAge(users) lấy một mảng các đối tượng User(có name và age)
+có thuộc tính age và sắp xếp chúng theo độ tuổi. */
 
+User = [
+  {name:"a", age: 13},
+  {name:"b", age: 14},
+  {name:"c", age: 12}
+]
 
-
+function sortByAge(users) {
+  var sortAge = users.sort((a,b)=> a.age - b.age)
+  return sortAge
+}
+console.log(sortByAge(User))
